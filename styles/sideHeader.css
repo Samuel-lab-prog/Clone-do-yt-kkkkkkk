@@ -1,0 +1,36 @@
+.side-header {
+    top: 59px;
+    padding-bottom: 110;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left: 0px;
+    width: 72px;
+    background-color: white;
+    z-index: 101;
+}
+    .box{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .box:hover{
+        cursor: pointer;
+    }
+.box:hover{
+        background-color: rgb(235, 235, 235);
+}
+.side-header img{
+    width: 24px;  
+}
+.texts{
+    font-family: Roboto, arial;
+    font-size: 10px;
+    margin-top: 6px;
+}
